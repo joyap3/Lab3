@@ -12,19 +12,20 @@ public class PowersTable {
         int i = 0;
 
         System.out.println("Learn your squares and cubes! \n");
-        System.out.print("Enter an integer:");
+        System.out.println("Enter an integer:");
         userNum = scan.nextInt();
 
 
-        System.out.printf("%s%16s%16s ","Number", "Squared", "Cubed");
+        System.out.printf("%8s%16s%16s ","Number", "Squared", "Cubed \n");
+        System.out.printf("%s%16s%16s ","=======", "=======", "=======");
 
-        while ( i <= userNum){
+        /*while ( i <= userNum){
 
             System.out.printf("%d%16d%16d%n",userNum, (int)Math.pow(userNum,2),(int)Math.pow(userNum,3));
 
 
         }
 
-        i++;
+        i++;*/
     }
 }
